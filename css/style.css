@@ -1,0 +1,67 @@
+#weather-container {
+	cursor: default;
+	/*font-family: "sketchnote-square",sans-serif;*/
+	font-family: "ff-providence-sc-web-pro",cursive;
+	padding-top: 50px;
+	text-align: center;
+}
+#weather-container h3 {
+	font-family: "ff-providence-sc-web-pro",cursive;
+	font-size: 18px;
+}
+#search-container {
+	text-align: center;
+	padding-top: 30px;
+}
+#search-container #location-input, #autocomplete-container > ul {
+	border: 1px solid #000;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	transition: all 0.30s ease-in-out;
+	width: 400px;
+	max-width: 90%;
+}
+#search-container #location-input {
+	/*font-family: "ff-providence-sc-web-pro",cursive;*/
+	opacity: 0;
+	padding: 5px;
+	text-align: center;
+}
+#search-container #location-input:focus, #autocomplete-container > ul {
+	outline: none;
+	border: 1px solid rgba(81, 203, 238, 1);
+}
+body.autocomplete-active #search-container #location-input {
+	border-bottom-style: dashed;
+}
+
+#autocomplete-container {
+	display: none;
+}
+#autocomplete-container #loading {
+	padding: 10px;
+}
+#autocomplete-container > ul {
+	border-top: 0;
+	list-style: none;
+	margin: 0 auto;
+	padding: 5px;
+}
+#autocomplete-container > ul > li > a {
+	display: block;
+}
+#autocomplete-container > ul > li > a:hover {
+	color: #428bca;
+	text-decoration: none;
+}
+#autocomplete-container > ul > li.selected {
+	background: #ccc;
+}
+body.autocomplete-active #autocomplete-container {
+	display: block;
+}
+
+
+
