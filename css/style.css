@@ -7,7 +7,7 @@ body.standalone #weather-container {
 	padding-top: 135px;
 }
 #weather-container h2, #weather-container h3 {
-	font-family: "source-sans-pro",sans-serif;
+	font-family: "Helvetica Neue Light", "source-sans-pro", sans-serif;
 	font-weight: 200;
 }
 #weather-container h3 {
@@ -29,7 +29,11 @@ body.standalone #weather-container {
 	max-width: 90%;
 }
 #search-container #location-input {
-	font-family: "source-sans-pro",sans-serif;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	font-family: "Helvetica Neue Light", "source-sans-pro", sans-serif;
 	font-weight: 300;
 	opacity: 0;
 	padding: 5px;
@@ -58,7 +62,7 @@ body.autocomplete-active #search-container #location-input {
 #autocomplete-container > ul > li > a {
 	color: #47B5D5;
 	display: block;
-	font-family: "source-sans-pro",sans-serif;
+	font-family: "Helvetica Neue Light", "source-sans-pro", sans-serif;
 	font-weight: 300;
 }
 #autocomplete-container > ul > li > a:hover {
