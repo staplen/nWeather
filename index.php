@@ -5,7 +5,7 @@
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-status-bar-style" content="white-translucent">
     <link rel="apple-touch-icon" href="img/ios7/icon.png" />
     <link rel="apple-touch-icon" sizes="72x72" href="img/ios7/icon-72.png" />
     <link rel="apple-touch-icon" sizes="114x114" href="img/ios7/icon@2x.png" />
