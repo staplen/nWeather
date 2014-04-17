@@ -1,6 +1,6 @@
 #weather-container {
 	cursor: default;
-	padding-top: 50px;
+	padding: 50px 5px 0 5px;
 	text-align: center;
 }
 body.standalone #weather-container {
@@ -9,6 +9,12 @@ body.standalone #weather-container {
 #weather-container h2, #weather-container h3 {
 	font-family: "Helvetica Neue Light", "source-sans-pro", sans-serif;
 	font-weight: 200;
+}
+body.standalone #weather-container h2,
+body.standalone #weather-container h3,
+body.standalone #search-container #location-input,
+body.standalone #autocomplete-container > ul > li > a {
+	font-family: inherit;
 }
 #weather-container h3 {
 	font-size: 18px;
@@ -37,7 +43,7 @@ body.standalone #weather-container {
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	-webkit-appearance: none;
-	font-family: "Helvetica Neue Light", "source-sans-pro", sans-serif;
+	font-family: "source-sans-pro", sans-serif;
 	font-weight: 300;
 	opacity: 0;
 	padding: 5px;
@@ -66,7 +72,7 @@ body.autocomplete-active #search-container #location-input {
 #autocomplete-container > ul > li > a {
 	color: #47B5D5;
 	display: block;
-	font-family: "Helvetica Neue Light", "source-sans-pro", sans-serif;
+	font-family: "source-sans-pro", sans-serif;
 	font-weight: 300;
 }
 #autocomplete-container > ul > li > a:hover {
