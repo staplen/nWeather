@@ -4,7 +4,7 @@
 	text-align: center;
 }
 body.standalone #weather-container {
-	padding-top: 140px;
+	padding-top: 135px;
 }
 #weather-container h2, #weather-container h3 {
 	font-family: "source-sans-pro",sans-serif;
