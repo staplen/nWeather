@@ -233,16 +233,6 @@ $(function() {
     quickQuery(query);
   }
 
-
-  if (window.location.hash) {
-    processHashSearch();
-  }
-  else {
-    getUserLocation();
-  }
-
-// TODO: hash change event is firing after weather rendered so it's searching for the hash of the weather station it has just loaded
-
   function processHashChange() {
     appData.currentHash = window.location.hash;
     if (!appState.hashUpdating) {
@@ -263,6 +253,19 @@ $(function() {
 
   function removeHashChangeListener() {
     $(window).off('hashchange');
+  }
+
+
+
+  if (window.location.hash) {
+    processHashSearch();
+  }
+  else {
+    getUserLocation();
+  }
+
+  if (window.navigator.standalone) {
+    $('body').addClass('standalone');
   }
 
 });
