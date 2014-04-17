@@ -14,7 +14,7 @@ body.standalone #weather-container h2,
 body.standalone #weather-container h3,
 body.standalone #search-container #location-input,
 body.standalone #autocomplete-container > ul > li > a {
-	font-family: inherit;
+	/*font-family: inherit;*/
 }
 #weather-container h3 {
 	font-size: 18px;
