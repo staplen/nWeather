@@ -125,6 +125,7 @@ $(function() {
     appData.heading1.html(currentWeather);
     appData.heading2.text(appData.currentLocation);
     addHashChangeListener();
+    appState.initializing = false;
   }
 
 
@@ -243,6 +244,7 @@ $(function() {
 // TODO: hash change event is firing after weather rendered so it's searching for the hash of the weather station it has just loaded
 
   function processHashChange() {
+    appData.currentHash = window.location.hash;
     if (!appState.hashUpdating) {
       console.log('hash changed');
       console.log(window.location.hash);
