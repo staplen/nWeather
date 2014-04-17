@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Weather</title>
+    <title>nWeather</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="white-translucent">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="apple-touch-icon" href="img/ios7/icon.png" />
     <link rel="apple-touch-icon" sizes="72x72" href="img/ios7/icon-72.png" />
     <link rel="apple-touch-icon" sizes="114x114" href="img/ios7/icon@2x.png" />
     <link rel="apple-touch-icon" sizes="144x144" href="img/ios7/icon-72@2x.png" />
+    <link rel="apple-touch-startup-image" href="img/ios7/startup-image.png" />
+    <meta name="apple-mobile-web-app-title" content="nWeather">
 
     <link rel="shortcut icon" href="img/favicon.ico?v2" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
