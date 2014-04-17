@@ -6,7 +6,7 @@
 	text-align: center;
 }
 body.standalone #weather-container {
-	padding-top: 90px;
+	padding-top: 150px;
 }
 #weather-container h3 {
 	font-family: "ff-providence-sc-web-pro",cursive;
