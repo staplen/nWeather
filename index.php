@@ -1,19 +1,68 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>nWeather</title>
+    <link href="img/favicon.ico?v3" rel="shortcut icon">
+    <meta content="yes" name="apple-mobile-web-app-capable">
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-
-    <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="white-translucent">
-    <link rel="apple-touch-icon" href="img/ios7/icon.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="img/ios7/icon-72.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="img/ios7/icon@2x.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="img/ios7/icon-72@2x.png" />
-    <link rel="apple-touch-startup-image" href="img/ios7/startup-image.png" />
     <meta name="apple-mobile-web-app-title" content="nWeather">
 
-    <link rel="shortcut icon" href="img/favicon.ico?v2" />
+    <!-- iPhone -->
+    <link href="img/ios-icons/apple-touch-icon-57x57.png"
+          sizes="57x57"
+          rel="apple-touch-icon">
+    <link href="img/ios-icons/apple-touch-startup-image-320x460.png"
+          media="(device-width: 320px) and (device-height: 480px)
+             and (-webkit-device-pixel-ratio: 1)"
+          rel="apple-touch-startup-image">
+
+    <!-- iPhone (Retina) -->
+    <link href="img/ios-icons/apple-touch-icon-114x114.png"
+          sizes="114x114"
+          rel="apple-touch-icon">
+    <link href="img/ios-icons/apple-touch-startup-image-640x920.png"
+          media="(device-width: 320px) and (device-height: 480px)
+             and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">
+
+    <!-- iPhone 5 -->
+    <link href="img/ios-icons/apple-touch-startup-image-640x1096.png"
+          media="(device-width: 320px) and (device-height: 568px)
+             and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">
+
+    <!-- iPad -->
+    <link href="img/ios-icons/apple-touch-icon-72x72.png"
+          sizes="72x72"
+          rel="apple-touch-icon">
+    <link href="img/ios-icons/apple-touch-startup-image-768x1004.png"
+          media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: portrait)
+             and (-webkit-device-pixel-ratio: 1)"
+          rel="apple-touch-startup-image">
+    <link href="img/ios-icons/apple-touch-startup-image-748x1024.png"
+          media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: landscape)
+             and (-webkit-device-pixel-ratio: 1)"
+          rel="apple-touch-startup-image">
+
+    <!-- iPad (Retina) -->
+    <link href="img/ios-icons/apple-touch-icon-144x144.png"
+          sizes="144x144"
+          rel="apple-touch-icon">
+    <link href="img/ios-icons/apple-touch-startup-image-1536x2008.png"
+          media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: portrait)
+             and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">
+    <link href="img/ios-icons/apple-touch-startup-image-1496x2048.png"
+          media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: landscape)
+             and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">
+
+    <title>nWeather</title>
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <script type="text/javascript" src="//use.typekit.net/qlu1goo.js"></script>
