@@ -235,12 +235,15 @@ $(function() {
 
   function processHashChange() {
     appData.currentHash = window.location.hash;
-    if (!appState.hashUpdating) {
+    if (!appState.hashUpdating && window.location.hash !== '#closest') {
       console.log('hash changed');
       console.log(window.location.hash);
       appData.heading1.text('Loading...');
       appData.heading2.html('&nbsp;');
       processHashSearch();
+    }
+    else if (window.location.hash === '#closest') {
+      getUserLocation();
     }
     else {
       appState.hashUpdating = false;
@@ -257,7 +260,8 @@ $(function() {
 
 
 
-  if (window.location.hash) {
+  if (window.location.hash && window.location.hash !== '#closest') {
+    console.log('starting hash: ' + window.location.hash);
     processHashSearch();
   }
   else {
